@@ -1,0 +1,168 @@
+.nav {
+  width: 100%;
+  height: 42px;
+  background-color: #f9f9f9;
+}
+
+.nav a {
+  margin-left: 10%;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.detail_container {
+  width: 80%;
+  display: flex;
+}
+.detail_left {
+  margin-left: 0;
+  width: 60%;
+}
+
+.detail_left .title,
+.detail_right .title {
+  font-family: "SF Pro Display";
+  font-size: 12px;
+  line-height: 14.32px;
+  font-weight: 400;
+  color: #565656;
+  text-transform: uppercase;
+}
+
+.detail_left p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #565656;
+}
+
+.tags {
+  margin-left: 0;
+  display: flex;
+}
+
+.container_tags {
+  display: flex;
+  flex-direction: column;
+}
+
+.tags_tags {
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 10px;
+  display: flex;
+}
+
+.tags_ht {
+  text-align: center;
+  width: 80px;
+  color: #565656;
+  background-color: #f5f5f5;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  border: 1px solid #f5f5f5;
+}
+
+.bt_hotel,
+.bt_travel {
+  text-align: center;
+  width: 50px;
+  color: #565656;
+  background-color: #f5f5f5;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  border: 1px solid #f5f5f5;
+}
+
+.social {
+  width: 25%;
+  justify-content: space-between;
+  margin-right: 0;
+  display: flex;
+}
+
+.detail_left h2 {
+  line-height: 46.4px;
+  width: 90%;
+  margin-left: 0;
+  font-size: 32px;
+  color: #7b6856;
+}
+
+.detail_left .container_social {
+  display: flex;
+}
+
+.detail_left .container_social .bt {
+  display: flex;
+  margin-left: 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #565656;
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+}
+
+.detail_right {
+  margin-right: 0;
+  width: 33%;
+}
+
+.detail_right .box_detail {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+
+.box_detail .d_left {
+  margin-left: 0;
+  width: 30%;
+}
+
+.box_detail .d_right {
+  width: 70%;
+  margin-right: 0;
+}
+
+.detail_right h3 {
+  color: #7b6856;
+  margin-top: 30px;
+}
+
+.d_right h4 {
+  font-size: 20px;
+  line-height: 29px;
+  margin-top: 5px;
+}
+
+.layer1 {
+  margin-right: 0;
+  margin-top: 30px;
+}
+
+.layer2 {
+  text-align: center;
+  z-index: 2;
+  margin-top: -220px;
+}
+
+.detail_bottom {
+  width: 100%;
+}
+
+.detail_bottom .container {
+  max-width: 100%;
+  margin-top: 0;
+}
+
+.detail_bottom .container h4 {
+  font-size: 20px;
+}
+.container .detail_left .hinh {
+  display: flex;
+  justify-content: space-between;
+}
